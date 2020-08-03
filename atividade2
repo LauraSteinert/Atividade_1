@@ -1,0 +1,15 @@
+/* Escreva um método chamado areaTrapezio que recebe três parâmetros do tipo double e retorna um valor do tipo double contendo a área do respectivo trapézio. 
+Os nomes dos parâmetros (ou argumentos) de entrada de seu método são: baseMaior (correspondendo à base de maior tamanho do trapézio), 
+baseMenor (correspondendo `a base de menor tamanho do trapézio) e altura (correspondendo à altura do trapézio). */
+
+class atividade2{
+	static double areaTrapezio(
+		double baseMaior, double baseMenor, double altura){
+		return(((baseMaior + baseMenor)*altura)/2);
+	}
+	public static void main(String[]args){
+		double areat;
+		areat = areaTrapezio(11,7,6);
+		System.out.println("Area do trapezio "+areat);
+	}
+}
